@@ -5,7 +5,6 @@ import Calculator from './Calculator';
 function App() {
   return (
       <div>
-        <h1>Pizza Calculator Extension</h1>
         <Calculator />
       </div>
   );
