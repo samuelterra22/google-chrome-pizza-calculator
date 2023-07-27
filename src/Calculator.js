@@ -116,8 +116,8 @@ function Calculator() {
                 {erros.percentualHidratacao && <div className="error-message" data-testid="erro-percentual-hidratacao">{erros.percentualHidratacao}</div>}
             </div>
             <div className="button-container">
-                <button onClick={calcularIngredientes}>Calcular</button>
                 <button className="btn-clear" onClick={limparFormulario}>Limpar</button>
+                <button onClick={calcularIngredientes}>Calcular</button>
             </div>
 
             {resultado && (
